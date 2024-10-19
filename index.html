@@ -6,32 +6,28 @@
     <title>My Simple Website</title>
     <style>
         body {
-            background-image: url('your-background-image-url.jpg');
-            background-size: cover;
+            background-color: #f0f0f0;
             font-family: Arial, sans-serif;
-            color: white;
             text-align: center;
-            padding: 0;
+            padding: 20px;
             margin: 0;
-        }
-
-        .container {
-            margin-top: 50px;
         }
 
         h1 {
             font-size: 3em;
+            color: #333;
             margin-bottom: 20px;
         }
 
         .image-box {
             width: 300px;
             height: 300px;
-            margin: 0 auto;
-            background-color: rgba(255, 255, 255, 0.2);
+            margin: 20px auto;
+            background-color: #ccc;
             display: flex;
             justify-content: center;
             align-items: center;
+            border: 2px solid #666;
         }
 
         .image-box img {
@@ -41,23 +37,22 @@
 
         .contact-info {
             margin-top: 50px;
-            font-size: 1.5em;
+            font-size: 1.2em;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>My Business Name</h1>
+    <h1>My Business Name</h1>
 
-        <div class="image-box">
-            <img src="your-image-url.jpg" alt="Business Logo">
-        </div>
+    <div class="image-box">
+        <!-- Aquí referenciamos la imagen con una ruta relativa -->
+        <img src="naranja.png" alt="Business Logo">
+    </div>
 
-        <div class="contact-info">
-            <p>Phone: +1 234 567 890</p>
-            <p>Address: 123 Fake Street, Springfield</p>
-        </div>
+    <div class="contact-info">
+        <p>Phone: +1 234 567 890</p>
+        <p>Address: 123 Fake Street, Springfield</p>
     </div>
 </body>
 </html>
-
